@@ -1,5 +1,5 @@
-# FTK-Imager-Automation
-A python script for automating the FTK Imager GUI. 
+# FTK-Imager-Automation  
+A python script for automating the FTK Imager GUI.  
 
 The script's main function is to add source paths to the FTK Imager GUI which it reads from a text file. Once the source paths are added to the GUI automatic image creation can take place.
 So basically this script works great if you have many batches of directories that you would like to image. All source paths can be imaged into one image or have imaged seperately.
@@ -19,10 +19,10 @@ usage: FTKAutomater.exe [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]
                         [-s] [-co] [-ft]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -q , --queue          The filepath of your text file that contains all
-                        Imaging Notes (text file must be in UTF-8 formatting)
-  -p , --filepath       The filepath of your text file that contains all
+  -h, --help            show this help message and exit  
+  -q , --queue          The filepath of your text file that contains all  
+                        Imaging Notes (text file must be in UTF-8 formatting)  
+  -p , --filepath       The filepath of your text file that contains all  
                         sources for the targeted image (text file must be in
                         UTF-8 formatting)
   -t , --type           For targeted collection type "targeted", for physical
