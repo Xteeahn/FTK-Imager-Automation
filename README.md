@@ -19,7 +19,7 @@ usage: FTKAutomater.exe [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]
                         [-s] [-co] [-ft]  
 
 optional arguments:  
-  -h, --help            show this help message and exit  
+  -h, --help            show this help message and exit  
   -q , --queue          The filepath of your text file that contains all  
                         Imaging Notes (text file must be in UTF-8 formatting)  
   -p , --filepath       The filepath of your text file that contains all  
