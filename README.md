@@ -16,29 +16,28 @@ Tested with FTK Imager 4.2.0.13
 The script might require some debugging to make it work with the latests version of FTK Imager.  
 
 usage: FTKAutomater.exe [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]  
-                        [-s] [-co] [-ft]  
+                        [-s] [-co] [-ft]  
 
 optional arguments:  
   -h, --help            show this help message and exit  
-  -q , --queue          The filepath of your text file that contains all  
-                        Imaging Notes (text file must be in UTF-8 formatting)  
-  -p , --filepath       The filepath of your text file that contains all  
-                        sources for the targeted image (text file must be in  
-                        UTF-8 formatting)  
-  -t , --type           For targeted collection type "targeted", for physical  
-                        collection type "physical" for logical collection type  
-                        "logical"  
-  -c , --casenumber     FTK: Case Number  
+  -q , --queue          The filepath of your text file that contains all  
+                        Imaging Notes (text file must be in UTF-8 formatting)  
+  -p , --filepath       The filepath of your text file that contains all  
+                        sources for the targeted image (text file must be in  
+                        UTF-8 formatting)  
+  -t , --type           For targeted collection type "targeted", for physical  
+                        collection type "physical" for logical collection type  
+                        "logical"  
+  -c , --casenumber     FTK: Case Number  
   -ev , --evidencenumber  
-                        FTK: Evidence Number  
-  -e , --examiner       FTK: Examiner  
-  -n , --notes          FTK: Notes  
+                        FTK: Evidence Number  
+  -e , --examiner       FTK: Examiner  
+  -n , --notes          FTK: Notes  
   -d , --destinationfolder  
-                        FTK: Image Destination Folder  
-  -f , --filename       FTK: Image Filename  
-  -s , --segmentsize    FTK: Segment Size  
-  -co , --compression   FTK: Compression (accepts values between 1-9)  
-  -ft , --ftklocation   Optional: Full folder path to FTK Imager (e.g.  
-                        "C:\Program Files\AccessData\FTK Imager\FTK  
-                        Imager.exe"  
+                        FTK: Image Destination Folder  
+  -f , --filename       FTK: Image Filename  
+  -s , --segmentsize    FTK: Segment Size  
+  -co , --compression   FTK: Compression (accepts values between 1-9)  
+  -ft , --ftklocation   Optional: Full folder path to FTK Imager (e.g.  
+                        "C:\Program Files\AccessData\FTK Imager\FTK Imager.exe"  
                         
