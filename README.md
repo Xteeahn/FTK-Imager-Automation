@@ -4,8 +4,7 @@ A python script for automating the FTK Imager GUI.
 The script's main function is to add source paths to the FTK Imager GUI which it reads from a text file. Once the source paths are added to the GUI automatic image creation can take place.
 So basically this script works great if you have many batches of directories that you would like to image. All source paths can be imaged into one image or have imaged seperately.  
 
-I've added in a "Image Notes Template" that can simplify the process and makes sure you are filling in all the required fields. The template is also great to log essential information  
-about the evidence that you are collecting.  
+I've added in a "Image Notes Template" that can simplify the process and makes sure you are filling in all the required fields. The template is also great to log essential information about the evidence that you are collecting.  
 
 It is possible to create imaging queues by creating a simple batch file, for example the following content will create two images with different content:  
 ```sh
