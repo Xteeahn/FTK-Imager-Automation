@@ -9,10 +9,8 @@ about the evidence that you are collecting.
 
 It is possible to create imaging queues by creating a simple batch file, for example the following content will create two images with different content:  
 ```sh
-"D:\FTKAutomater.exe"  -p "D:\SourcePaths1.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n 
-"Project Name: Project test; " -d "D:\ " -f "3" -s "1024" -co "0"  
-"D:\FTKAutomater.exe"  -p "D:\SourcePaths2.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n 
-"Project Name: Project test; " -d "D:\ " -f "2" -s "1024" -co "0"  
+"D:\FTKAutomater.exe"  -p "D:\SourcePaths1.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "3" -s "1024" -co "0"  
+"D:\FTKAutomater.exe"  -p "D:\SourcePaths2.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "2" -s "1024" -co "0"  
 ```
 ```
 usage: FTKAutomater.exe [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]  
