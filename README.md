@@ -1,4 +1,4 @@
-
+```
 # FTK-Imager-Automation  
 A python script for automating the FTK Imager GUI.  
 
@@ -15,6 +15,7 @@ It is possible to create imaging queues by creating a simple batch file, for exa
 
 Tested with FTK Imager 4.2.0.13  
 The script might require some debugging to make it work with the latests version of FTK Imager.  
+```
 ```
 usage: FTKAutomater.exe [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]  
                                              [-s] [-co] [-ft]  
