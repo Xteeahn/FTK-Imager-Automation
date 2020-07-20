@@ -1,4 +1,3 @@
-```
 # FTK-Imager-Automation  
 A python script for automating the FTK Imager GUI.  
 
@@ -7,14 +6,10 @@ So basically this script works great if you have many batches of directories tha
 
 I've added in a "Image Notes Template" that can simplify the process and makes sure you are filling in all the required fields. The template is also great to log essential information  
 about the evidence that you are collecting.  
-
+```sh
 It is possible to create imaging queues by creating a simple batch file, for example the following content will create two images with different content:  
 "D:\FTKAutomater.exe"  -p "D:\SourcePaths1.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "3" -s "1024" -co "0"  
 "D:\FTKAutomater.exe"  -p "D:\SourcePaths2.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "2" -s "1024" -co "0"  
-
-
-Tested with FTK Imager 4.2.0.13  
-The script might require some debugging to make it work with the latests version of FTK Imager.  
 ```
 ```
 usage: FTKAutomater.exe [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]  
@@ -43,3 +38,5 @@ optional arguments:
   -ft , --ftklocation   Optional: Full folder path to FTK Imager (e.g.  
                         "C:\Program Files\AccessData\FTK Imager\FTK Imager.exe"  
 ```                        
+Tested with FTK Imager 4.2.0.13  
+The script might require some debugging to make it work with the latests version of FTK Imager.  
