@@ -8,11 +8,11 @@ I've added in a "Image Notes Template" that can simplify the process and makes s
 
 It is possible to create imaging queues by creating a simple batch file, for example the following content will create two images with different content:  
 ```sh
-"D:\FTKAutomater.exe"  -p "D:\SourcePaths1.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "3" -s "1024" -co "0"  
-"D:\FTKAutomater.exe"  -p "D:\SourcePaths2.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "2" -s "1024" -co "0"  
+"D:\FTKAutomater.py"  -p "D:\SourcePaths1.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "3" -s "1024" -co "0"  
+"D:\FTKAutomater.py"  -p "D:\SourcePaths2.txt" -t "targeted" -c "Project test" -ev "DFT-0001" -e "Fred" -n "Project Name: Project test; " -d "D:\ " -f "2" -s "1024" -co "0"  
 ```
 ```
-usage: FTKAutomater.exe [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]  
+usage: FTKAutomater.py [-h] [-q] [-p] [-t] [-c] [-ev] [-e] [-n] [-d] [-f]  
                                              [-s] [-co] [-ft]  
 
 optional arguments:  
@@ -36,7 +36,7 @@ optional arguments:
   -s , --segmentsize    FTK: Segment Size  
   -co , --compression   FTK: Compression (accepts values between 1-9)  
   -ft , --ftklocation   Optional: Full folder path to FTK Imager (e.g.  
-                        "C:\Program Files\AccessData\FTK Imager\FTK Imager.exe"  
+                        "C:\Program Files\AccessData\FTK Imager\FTK Imager.exe"
+  -cu , --customcontent  The filepath of your text file that contains all custom content file's (text file must be in UTF-8 formatting)"  
 ```                        
 Tested with FTK Imager 4.2.0.13  
-The script might require some debugging to make it work with the latests version of FTK Imager.  
