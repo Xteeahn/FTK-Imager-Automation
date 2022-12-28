@@ -40,13 +40,13 @@ def FTKAutomater():
     if args.casenumber is None:
         print("Argument -c \"casenumber\" is not set")
         sys.exit()
-    if args.casenumber is None:
+    if args.evidencenumber is None:
         print("Argument -ev \"evidencenumber\" is not set")
         sys.exit()
-    if args.casenumber is None:
+    if args.examiner is None:
         print("Argument -e \"examiner\" is not set")
         sys.exit()
-    if args.casenumber is None:
+    if args.notes is None:
         print("Argument -n \"notes\" is not set")
         sys.exit()
     if args.destinationfolder is None:
